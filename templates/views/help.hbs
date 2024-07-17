@@ -7,9 +7,22 @@
     <body>
         <div class="main-content">
             {{>header}}
-            <p>This is some helpful text</p>
+            <div class="container">
+                <section class="help">
+                    <p>Welcome to the WeatherApp Help page. Here you can find answers to frequently asked questions and guidance on how to use our application.</p>
+        
+                    <div class="faq">
+                        <h2>Frequently Asked Questions</h2>
+                        
+                        <h3>How do I get the weather for my location?</h3>
+                        <p>Simply enter your city or zip code into the search bar on the home page and click the search button. The weather information for your location will be displayed.</p>
+                        
+                        <h3>How often is the weather data updated?</h3>
+                        <p>Our weather data is updated every hour to ensure you have the most accurate and up-to-date information.</p>
+                    </div>
+                </section>
+            </div>
         </div>
-
         {{>footer}}
     </body>
 </html>
